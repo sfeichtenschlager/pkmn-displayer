@@ -1,0 +1,5 @@
+.pkmn {
+  margin: 0.5vw 1.5vw;
+  display: inline-flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
