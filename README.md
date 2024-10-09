@@ -20,7 +20,9 @@ You can replace this with your list of Pokemon, which have to be split by new li
 Now, you are almost done. Go back to your Command Line and go back to the root of the created folder (where the `README.md` is located).
 Enter the command `npm i`. This should set up the Angular project.
 
-Once this step is completed, you can enter the command `ng serve`. This will build the application. The website will then be available on your `localhost:4200`.
+Once this step is completed, you can enter the command `ng serve`.
+This will build the application.
+The website will then be available on your `localhost:4200`.
 You can stop hosting the website by entering the keyboard combination `Ctrl + C`. 
 
 ## Troubleshooting
