@@ -30,4 +30,10 @@ export class DisplayComponent implements OnInit {
     this.types = res.types;
   }
 
+  nameFixer(pkmnName: string) {
+    let splitName = pkmnName.split('-');
+    if (splitName[0] !== 'Iron') return splitName[0]
+    else return splitName[0] + " " + splitName[1]
+  }
+
 }

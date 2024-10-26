@@ -1,6 +1,6 @@
 <div class="pokemon">
   <img *ngIf="sprite" [src]="sprite" width="100px" height="100px" [alt]="pkmnName">
-  <h3>{{ pkmnName.split('-')[0] }}</h3>
+  <h3>{{ nameFixer(pkmnName) }}</h3>
   <p *ngIf="types && types.length > 0">
     <span>{{ types[0] }}</span>
     <span *ngIf="types[1]"> / {{ types[1] }}</span>

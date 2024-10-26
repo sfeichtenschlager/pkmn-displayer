@@ -287,6 +287,7 @@ export class AppComponent {
     "Larvesta\n" +
     "Volcarona\n" +
     "Sableye\n" +
+    "Mawile\n" +
     "Solrock\n" +
     "Lunatone\n" +
     "Turtwig\n" +
@@ -322,7 +323,6 @@ export class AppComponent {
     "Amaura\n" +
     "Aurorus\n" +
     "Minior-red-meteor\n" +
-    "Mawile\n" +
     "Larvitar\n" +
     "Pupitar\n" +
     "Tyranitar\n" +
@@ -341,7 +341,7 @@ export class AppComponent {
     "Iron-Jugulis\n" +
     "Iron-Thorns\n" +
     "Iron-Bundle\n" +
-    "Iron-Valiant\n"
+    "Iron-Valiant"
 
   pkmnSplit = this.pkmnList.split('\n').map(pkmn => pkmn.trim());
 }
