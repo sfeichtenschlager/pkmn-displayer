@@ -269,8 +269,6 @@ export class AppComponent {
     "Scrafty\n" +
     "Qwilfish-hisui\n" +
     "Overqwil\n" +
-    "Remoraid\n" +
-    "Octillery\n" +
     "Nymble\n" +
     "Lokix\n" +
     "Spinarak\n" +
