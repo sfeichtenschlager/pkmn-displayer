@@ -271,7 +271,6 @@ export class AppComponent {
     "Overqwil\n" +
     "Remoraid\n" +
     "Octillery\n" +
-    "Spinarak\n" +
     "Nymble\n" +
     "Lokix\n" +
     "Spinarak\n" +
