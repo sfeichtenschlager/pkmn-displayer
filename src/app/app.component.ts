@@ -13,7 +13,7 @@ import {NgForOf} from '@angular/common';
 export class AppComponent {
   title = 'PkmnDisplayer';
 
-  // 2024-Oct-08
+  // 2024-Oct-26
   pkmnList = "Bulbasaur\n" +
     "Ivysaur\n" +
     "Venusaur\n" +
@@ -174,6 +174,9 @@ export class AppComponent {
     "Hitmonchan\n" +
     "Hitmontop\n" +
     "Hawlucha\n" +
+    "Zubat\n" +
+    "Golbat\n" +
+    "Crobat\n" +
     "Joltik\n" +
     "Galvantula\n" +
     "Drilbur\n" +
@@ -181,24 +184,43 @@ export class AppComponent {
     "Bronzor\n" +
     "Bronzong\n" +
     "Lapras\n" +
+    "Minccino\n" +
+    "Cinccino\n" +
+    "Azurill\n" +
+    "Marill\n" +
+    "Azumarill\n" +
+    "Munna\n" +
+    "Musharna\n" +
     "Snivy\n" +
     "Servine\n" +
     "Serperior\n" +
     "Flabebe\n" +
     "Floette\n" +
     "Florges\n" +
+    "Solosis\n" +
+    "Duosion\n" +
+    "Reuniclus\n" +
     "Tirtouga\n" +
     "Carracosta\n" +
     "Lileep\n" +
     "Cradily\n" +
     "Chingling\n" +
     "Chimecho\n" +
+    "Slowpoke-galar\n" +
+    "Slowbro-galar\n" +
+    "Slowking-galar\n" +
+    "Bonsly\n" +
+    "Sudowoodo\n" +
+    "Litwick\n" +
+    "Lampent\n" +
+    "Chandelure\n" +
+    "Lotad\n" +
+    "Lombre\n" +
+    "Ludicolo\n" +
     "Helioptile\n" +
     "Heliolisk\n" +
     "Darumaka\n" +
     "Darmanitan-standard\n" +
-    "Munna\n" +
-    "Musharna\n" +
     "Onix\n" +
     "Steelix\n" +
     "Sigilyph\n" +
@@ -210,10 +232,10 @@ export class AppComponent {
     "Heatmor\n" +
     "Durant\n" +
     "Dhelmise\n" +
-    "Indeedee-male\n" +
-    "Slowpoke-galar\n" +
-    "Slowbro-galar\n" +
-    "Slowking-galar\n" +
+    "Indeedee-female\n" +
+    "Tinkatink\n" +
+    "Tinkatuff\n" +
+    "Tinkaton\n" +
     "Togepi\n" +
     "Togetic\n" +
     "Togekiss\n" +
@@ -222,22 +244,16 @@ export class AppComponent {
     "Haxorus\n" +
     "Skrelp\n" +
     "Dragalge\n" +
-    "Solosis\n" +
-    "Duosion\n" +
-    "Reuniclus\n" +
     "Morelull\n" +
     "Shiinotic\n" +
     "Phanpy\n" +
     "Donphan\n" +
-    "Litwick\n" +
-    "Lampent\n" +
-    "Chandelure\n" +
+    "Makuhita\n" +
+    "Hariyama\n" +
     "Zorua\n" +
     "Zoroark\n" +
     "Dwebble\n" +
     "Crustle\n" +
-    "Blitzle\n" +
-    "Zebstrika\n" +
     "Cutiefly\n" +
     "Ribombee\n" +
     "Gastly\n" +
@@ -255,6 +271,11 @@ export class AppComponent {
     "Overqwil\n" +
     "Remoraid\n" +
     "Octillery\n" +
+    "Spinarak\n" +
+    "Nymble\n" +
+    "Lokix\n" +
+    "Spinarak\n" +
+    "Ariados\n" +
     "Klefki\n" +
     "Inkay\n" +
     "Malamar\n" +
@@ -262,20 +283,65 @@ export class AppComponent {
     "Golurk\n" +
     "Skorupi\n" +
     "Drapion\n" +
+    "Mimikyu-disguised\n" +
+    "Larvesta\n" +
+    "Volcarona\n" +
+    "Sableye\n" +
+    "Solrock\n" +
+    "Lunatone\n" +
     "Turtwig\n" +
     "Grotle\n" +
     "Torterra\n" +
+    "Hippopotas\n" +
+    "Hippowdon\n" +
+    "Ekans\n" +
+    "Arbok\n" +
+    "Mienfoo\n" +
+    "Mienshao\n" +
+    "Maschiff\n" +
+    "Mabosstiff\n" +
+    "Tyrunt\n" +
+    "Tyrantrum\n" +
     "Pawniard\n" +
     "Bisharp\n" +
+    "Carvanha\n" +
+    "Sharpedo\n" +
+    "Swablu\n" +
+    "Altaria\n" +
+    "Ralts\n" +
+    "Kirlia\n" +
+    "Gardevoir\n" +
+    "Gallade\n" +
+    "Delibird\n" +
+    "Frillish\n" +
+    "Jellicent\n" +
+    "Lickitung\n" +
+    "Lickilicky\n" +
+    "Baltoy\n" +
+    "Claydol\n" +
+    "Amaura\n" +
+    "Aurorus\n" +
+    "Minior-red-meteor\n" +
+    "Mawile\n" +
     "Larvitar\n" +
     "Pupitar\n" +
     "Tyranitar\n" +
+    "Deino\n" +
+    "Zweilous\n" +
+    "Hydreigon\n" +
     "Entei\n" +
     "Raikou\n" +
     "Suicune\n" +
     "Jirachi\n" +
     "Reshiram\n" +
-    "Zekrom"
+    "Zekrom\n" +
+    "Iron-Treads\n" +
+    "Iron-Moth\n" +
+    "Iron-Hands\n" +
+    "Iron-Jugulis\n" +
+    "Iron-Thorns\n" +
+    "Iron-Bundle\n" +
+    "Iron-Valiant\n"
 
   pkmnSplit = this.pkmnList.split('\n').map(pkmn => pkmn.trim());
 }
