@@ -143,6 +143,9 @@ export class AppComponent {
     "Scatterbug\n" +
     "Spewpa\n" +
     "Vivillon\n" +
+    "Fletchling\n" +
+    "Fletchinder\n" +
+    "Talonflame\n" +
     "Emolga\n" +
     "Pancham\n" +
     "Pangoro\n" +
@@ -339,6 +342,6 @@ export class AppComponent {
     "Iron-Thorns\n" +
     "Iron-Bundle\n" +
     "Iron-Valiant"
-
+    
   pkmnSplit = this.pkmnList.split('\n').map(pkmn => pkmn.trim());
 }
